@@ -6,8 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(linked_list_Cpp
-        list.cpp
-        list.h
         handler1d.cpp
         handler2d.cpp
+        maincpp.cpp
 )

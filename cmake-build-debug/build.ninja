@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/moroshma/Documents/linked-list-Cpp/cmake-build-debug
 
 build cmake_object_order_depends_target_linked_list_Cpp: phony || CMakeFiles/linked_list_Cpp.dir
 
-build CMakeFiles/linked_list_Cpp.dir/list.cpp.o: CXX_COMPILER__linked_list_Cpp_unscanned_Debug /home/moroshma/Documents/linked-list-Cpp/list.cpp || cmake_object_order_depends_target_linked_list_Cpp
-  DEP_FILE = CMakeFiles/linked_list_Cpp.dir/list.cpp.o.d
+build CMakeFiles/linked_list_Cpp.dir/Slist.cpp.o: CXX_COMPILER__linked_list_Cpp_unscanned_Debug /home/moroshma/Documents/linked-list-Cpp/Slist.cpp || cmake_object_order_depends_target_linked_list_Cpp
+  DEP_FILE = CMakeFiles/linked_list_Cpp.dir/Slist.cpp.o.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   INCLUDES = -I/home/moroshma/Documents/linked-list-Cpp/.
   OBJECT_DIR = CMakeFiles/linked_list_Cpp.dir
@@ -70,6 +70,13 @@ build CMakeFiles/linked_list_Cpp.dir/handler2d.cpp.o: CXX_COMPILER__linked_list_
   OBJECT_DIR = CMakeFiles/linked_list_Cpp.dir
   OBJECT_FILE_DIR = CMakeFiles/linked_list_Cpp.dir
 
+build CMakeFiles/linked_list_Cpp.dir/maincpp.cpp.o: CXX_COMPILER__linked_list_Cpp_unscanned_Debug /home/moroshma/Documents/linked-list-Cpp/maincpp.cpp || cmake_object_order_depends_target_linked_list_Cpp
+  DEP_FILE = CMakeFiles/linked_list_Cpp.dir/maincpp.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I/home/moroshma/Documents/linked-list-Cpp/.
+  OBJECT_DIR = CMakeFiles/linked_list_Cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/linked_list_Cpp.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target linked_list_Cpp
@@ -78,7 +85,7 @@ build CMakeFiles/linked_list_Cpp.dir/handler2d.cpp.o: CXX_COMPILER__linked_list_
 #############################################
 # Link the executable linked_list_Cpp
 
-build linked_list_Cpp: CXX_EXECUTABLE_LINKER__linked_list_Cpp_Debug CMakeFiles/linked_list_Cpp.dir/list.cpp.o CMakeFiles/linked_list_Cpp.dir/handler1d.cpp.o CMakeFiles/linked_list_Cpp.dir/handler2d.cpp.o
+build linked_list_Cpp: CXX_EXECUTABLE_LINKER__linked_list_Cpp_Debug CMakeFiles/linked_list_Cpp.dir/Slist.cpp.o CMakeFiles/linked_list_Cpp.dir/handler1d.cpp.o CMakeFiles/linked_list_Cpp.dir/handler2d.cpp.o CMakeFiles/linked_list_Cpp.dir/maincpp.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/linked_list_Cpp.dir
   POST_BUILD = :
